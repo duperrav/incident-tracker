@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 
 class LoadingIndicator extends StatelessWidget {
@@ -8,3 +9,4 @@ class LoadingIndicator extends StatelessWidget {
     );
   }
 }
+*/
