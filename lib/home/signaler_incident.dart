@@ -10,16 +10,17 @@ class SignalerIncident extends StatefulWidget {
 }
 
 class _SignalerIncident extends State<SignalerIncident> {
-
-  String? dropdownvalue = 'Pomme';
+  // l'élément sélectionné
+  String? dropdownvalue = 'Salle1';
   final _formKey = GlobalKey<FormState>();
+
+  // liste des éléments (à la main)
   var items = [
-    'Pomme',
-    'Banane',
-    'Fraise',
-    'Orange',
-    'abricot',
-    'Melon'
+    'Salle1',
+    'Salle2',
+    'Salle3',
+    'Salle4',
+    'Salle5'
   ];
 
   @override
@@ -42,11 +43,13 @@ class _SignalerIncident extends State<SignalerIncident> {
               mainAxisSize: MainAxisSize.max,
               children:  <Widget>[
                 const SizedBox(height: 200),
+                // Texte
                 const Text(
                   'Sélectionnez une salle:',
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
                 const SizedBox(height: 50),
+                // Liste déroulante
                 DropdownButton(
                   isExpanded: true,
                   value: dropdownvalue,
@@ -70,7 +73,7 @@ class _SignalerIncident extends State<SignalerIncident> {
                       fixedSize: const Size(100,50)
                   ),
                   onPressed: () {
-                    // Validate returns true if the form is valid, or false otherwise.
+                    // Validation du formulaire.
                     if (_formKey.currentState!.validate()) {
 
                       ScaffoldMessenger.of(context).showSnackBar(

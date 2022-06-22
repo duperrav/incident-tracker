@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'incident_list_page.dart';
 import 'signaler_incident.dart';
 
+// Page d'accueil
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -39,7 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 textStyle: TextStyle(fontSize: 20),
                 fixedSize: const Size(300,50)
               ),
-            onPressed: () {
+              onPressed: () {
+                // redirection vers la liste des tickets
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const ListeIncident()),
@@ -56,6 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 fixedSize: const Size(300,50)
             ),
             onPressed: () {Navigator.push(
+              // redirection vers la section signaler un incident
               context,
               MaterialPageRoute(builder: (context) => const SignalerIncident()),
             );},

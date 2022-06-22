@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'widgets/dropdown.dart';
 
 class ListeIncident extends StatefulWidget {
   const ListeIncident({Key? key}) : super(key: key);
@@ -36,8 +35,9 @@ class _ListeIncident extends State<ListeIncident> {
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
                 const SizedBox(height: 40),
-              DataTable(
-                
+               // Un datatable rassemblant les tickets envoyés
+                DataTable(
+
                 columns: const <DataColumn>[
                   DataColumn(
                     label: Text(
@@ -59,7 +59,7 @@ class _ListeIncident extends State<ListeIncident> {
                       DataCell(
 
                           Text(
-                        'Ecran pourri',
+                        'Test',
                         style: TextStyle(color: Colors.white, fontSize: 20))
                       ),
                       DataCell(Text(
