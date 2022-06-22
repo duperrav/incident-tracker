@@ -1,5 +1,6 @@
 # incident-tracker
-projet mobile
+
+L'objectif de ce projet est de mettre en place une interface mobile permettant d'envoyer des tickets d'incidents et de les recevoir par une autre section de l'application.
 
 Captures d'écran
 
