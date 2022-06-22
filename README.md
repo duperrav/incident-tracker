@@ -18,4 +18,4 @@ En appuyant sur le bouton "signaler un incident", une liste déroulante avec des
 
 ![image](https://user-images.githubusercontent.com/101574941/175141519-2a3b9e9b-2da5-4e0e-a19b-c49ee681a6bc.png)
 
-L'utilisateur saisit la description (qui sera envoyé en bdd) et sera rédirigé vers la page d'accueil.
+L'utilisateur saisit la description (qui sera envoyé en bdd) et sera redirigé vers la page d'accueil.
