@@ -3,6 +3,6 @@ projet mobile
 
 Captures d'écran
 
+![image](https://user-images.githubusercontent.com/101574941/175139855-230924e4-574d-4e82-a09b-c0d1c5cb3c76.png)
 
-![Untitled](https://user-images.githubusercontent.com/101574941/173412175-800c65f0-cef7-4d77-8907-03c4e90f12f2.png)
-Page d'accueil pour les tickets d'incident
+Page d'accueil permettant d'accéder à la liste des tickets et de signaler un incident.
